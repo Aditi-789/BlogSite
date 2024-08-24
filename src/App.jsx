@@ -3,13 +3,13 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import Home from "./pages/home/Home";
-import Blog from "./pages/blog/Blog";
+import Home from "./pages/home/home";
+import Blog from "./pages/blog/blog";
 import AllBlogs from "./pages/allBlogs/AllBlogs";
 import NoPage from "./pages/noPage/NoPage";
 import BlogInfo from "./pages/blogInfo/BlogInfo";
 import AdminLogin from "./pages/admin/adminLogin/AdminLogin";
-import Dashboard from "./pages/admin/dashboard/Dashboard";
+import Dashboard from "./pages/admin/dashboard/dashboard";
 import MyState from "./context/data/myState";
 import { Toaster } from "react-hot-toast";
 import CreateBlog from "./pages/admin/createBlog/createBlog";
